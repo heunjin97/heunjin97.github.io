@@ -1,34 +1,971 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>내 첫 홈페이지</title>
-    <link rel="stylesheet" href="./assets/css/default.css">
+  <title>내 첫 홈페이지</title>
+  <link rel="stylesheet" href="./assets/css/default.css">
 </head>
+
 <body>
-  <div class="skip"><a href="">본문 바로가기</a></div>
+  <div class="skip"><a href="#content">본문 바로가기</a></div>
   <header>
+    <h1>내 첫 홈페이지</h1>
     <nav>
       <ul>
         <li><a href="sensereader/chapter8.html6">sensereader</a></li>
         <li><a href="nvda/keyCommands.html">nvda</a></li>
         <li><a href="chrome/chromekey.html">chrome</a></li>
-        <li><a href="">menu04</a></li>
+        <li><a href="./aria-practices-main/examples/index.html">WAI-ARIA</a></li>
         <li><a href="">menu05</a></li>
         <li><a href="">menu06</a></li>
       </ul>
     </nav>
   </header>
-  <main>
+  <main id="content" class="container">
     <section>
       <h2>공지사항</h2>
     </section>
+    <div class="mw-content-container">
+
+      <header class="mw-body-header vector-page-titlebar">
+        <label id="vector-toc-collapsed-button"
+          class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button"
+          for="vector-toc-collapsed-checkbox" role="button" aria-controls="toc-toggle-list"
+          data-event-name="vector.toc-toggle-list" tabindex="0" title="목차" aria-expanded="false">
+          목차 토글
+        </label>
+
+        <h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">특례시 (대한민국)</span>
+        </h1>
+    
+        <div id="p-lang-btn"
+          class="vector-menu mw-portlet mw-portlet-lang vector-menu-dropdown-noicon vector-menu-dropdown">
+          <input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true"
+            data-event-name="ui.dropdown-p-lang-btn" class="vector-menu-checkbox  mw-interlanguage-selector "
+            aria-label="다른 언어로 문서를 방문합니다. 1개 언어로 읽을 수 있습니다">
+          <label id="p-lang-btn-label" for="p-lang-btn-checkbox"
+            class="vector-menu-heading mw-ui-progressive mw-portlet-lang-heading-1 mw-ui-button mw-ui-quiet">
+            <span
+              class="mw-ui-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span><span
+              class="vector-menu-heading-label">1개 언어</span>
+          </label>
+          <div class="vector-menu-content">
+
+            <ul class="vector-menu-content-list">
+              <li class="interlanguage-link interwiki-ja mw-list-item"><                  title="特例市 (韓国) – 일본어" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></>
+              </li>
+            </ul>
+            <div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"></span>
+            </div>
+          </div>
+        </div>
+
+      </header>
+      <div class="vector-article-toolbar">
+        <div class="mw-article-toolbar-container">
+          <div id="left-navigation">
+            <nav aria-label="이름공간">
+
+
+              <div id="p-associated-pages" class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs">
+                <div class="vector-menu-content">
+
+                  <ul class="vector-menu-content-list">
+                    <li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a
+                        href="/wiki/%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)"
+                        title="본문 보기 [alt-shift-c]" accesskey="c"><span>문서</span></a></li>
+                    <li id="ca-talk" class="vector-tab-noicon mw-list-item"><a
+                        href="/wiki/%ED%86%A0%EB%A1%A0:%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)"
+                        rel="discussion" title="문서의 내용에 대한 토론 문서 [alt-shift-t]" accesskey="t"><span>토론</span></a></li>
+                  </ul>
+
+                </div>
+              </div>
+
+
+
+              <div id="p-variants"
+                class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown">
+                <input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true"
+                  data-event-name="ui.dropdown-p-variants" class="vector-menu-checkbox" aria-label="언어 변종 바꾸기">
+                <label id="p-variants-label" for="p-variants-checkbox" class="vector-menu-heading ">
+                  <span class="vector-menu-heading-label">한국어</span>
+                </label>
+                <div class="vector-menu-content">
+
+                  <ul class="vector-menu-content-list"></ul>
+
+                </div>
+              </div>
+
+            </nav>
+          </div>
+          <div id="right-navigation" class="vector-collapsible">
+            <nav aria-label="보기">
+
+
+              <div id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs">
+                <div class="vector-menu-content">
+
+                  <ul class="vector-menu-content-list">
+                    <li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a
+                        ><span>읽기</span></a>
+                    </li>
+                    <li id="ca-edit" class="vector-tab-noicon mw-list-item"><a
+                        href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=edit"
+                        title="이 문서 편집하기 [alt-shift-e]" accesskey="e"><span>편집</span></a></li>
+                    <li id="ca-history" class="vector-tab-noicon mw-list-item"><a
+                        href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=history"
+                        title="이 문서의 과거 편집 내역입니다. [alt-shift-h]" accesskey="h"><span>역사 보기</span></a></li>
+                  </ul>
+
+                </div>
+              </div>
+            </nav>
+
+            <nav aria-label="더 많은 옵션">
+
+
+              <div id="p-cactions"
+                class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown vector-has-collapsible-items"
+                title="더 많은 옵션">
+                <input type="checkbox" id="p-cactions-checkbox" role="button" aria-haspopup="true"
+                  data-event-name="ui.dropdown-p-cactions" class="vector-menu-checkbox">
+                <label id="p-cactions-label" for="p-cactions-checkbox" class="vector-menu-heading ">
+                  <span class="vector-menu-heading-label">더 보기</span>
+                </label>
+                <div class="vector-menu-content">
+
+                  <ul class="vector-menu-content-list">
+                    <li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a
+                        href="/wiki/%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)"><span>읽기</span></a>
+                    </li>
+                    <li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a
+                        href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=edit"><span>편집</span></a>
+                    </li>
+                    <li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a
+                        href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=history"><span>역사
+                          보기</span></a></li>
+                  </ul>
+
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div id="bodyContent" class="vector-body ve-init-mw-desktopArticleTarget-targetContainer"
+        aria-labelledby="firstHeading" data-mw-ve-target-container="">
+        <div class="mw-body-subheader">
+          <div class="mw-indicators">
+          </div>
+
+          <div id="siteSub" class="noprint">위키백과, 우리 모두의 백과사전.</div>
+        </div>
+        <div id="contentSub"></div>
+
+
+        <div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="ko" dir="ltr">
+          <div class="mw-parser-output">
+            <p><span class="nowrap"></span>
+            </p>
+            <table cellpadding="2" cellspacing="0"
+              style="background:#f7f8ff; float:right; border:1px solid; margin:5px; font-size:95%; text-align:center;">
+              <tbody>
+                <tr>
+                  <th style="background:#ccf; border-bottom:1px solid; font-size:100%"><a
+                      href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD"
+                      title="대한민국의 행정 구역">대한민국의 행정 구역</a>
+                  </th>
+                </tr>
+                <tr>
+                  <th style="background:#ffdead; font-size:100%; align:center; border-bottom:1px solid">광역시·도*
+                  </th>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%ED%8A%B9%EB%B3%84%EC%8B%9C" title="특별시">특별시</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EA%B4%91%EC%97%AD%EC%8B%9C" title="광역시">광역시</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EC%8B%9C" title="특별자치시">특별자치시</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%8F%84" title="대한민국의 도">도</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84" title="특별자치도">특별자치도</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    style="background:#ffdead; align:center; font-size:100%; border-bottom:1px solid; border-top:1px solid">
+                    시·군·자치구**
+                  </th>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EC%8B%9C_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)" title="시 (행정 구역)">시</a> <span
+                      style="font-size:85%">(<a
+                        href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EC%84%A4%EC%B9%98%EC%88%9C_%EB%8F%84%EC%8B%9C_%EB%AA%A9%EB%A1%9D"
+                        title="대한민국의 설치순 도시 목록">목록</a>)</span> (<a class="mw-selflink selflink">특례시</a>)
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B5%B0" title="대한민국의 군">군</a>
+                    <span style="font-size:85%">(<a
+                        href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B5%B0_%EB%AA%A9%EB%A1%9D"
+                        title="대한민국의 군 목록">목록</a>)</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B5%AC" title="대한민국의 구">자치구</a>
+                    <span style="font-size:85%">(<a
+                        href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B5%AC_%EB%AA%A9%EB%A1%9D"
+                        title="대한민국의 구 목록">목록</a>)</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    style="background:#ffdead; align:center; font-size:100%; border-bottom:1px solid; border-top:1px solid">
+                    지방정부가 아닌 시·구
+                  </th>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%ED%96%89%EC%A0%95%EC%8B%9C" title="행정시">행정시</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B5%AC#자치구가_아닌_구"
+                      title="대한민국의 구">행정구</a> <span style="font-size:85%">(<a
+                        href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B5%AC_%EB%AA%A9%EB%A1%9D"
+                        title="대한민국의 구 목록">목록</a>)</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    style="background:#ffdead; font-size:100%; align:center; border-bottom:1px solid; border-top:1px solid">
+                    읍·면·동
+                  </th>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EC%9D%8D" title="읍">읍</a> <span style="font-size:85%">(<a
+                        href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EC%9D%8D_%EB%AA%A9%EB%A1%9D"
+                        title="대한민국의 읍 목록">목록</a>)</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EB%A9%B4_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)" title="면 (행정 구역)">면</a> <span
+                      style="font-size:85%">(<a
+                        href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%A9%B4_%EB%AA%A9%EB%A1%9D"
+                        title="대한민국의 면 목록">목록</a>)</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%ED%96%89%EC%A0%95%EB%8F%99" title="행정동">행정동</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    style="background:#ffdead; font-size:100%; align:center; border-bottom:1px solid; border-top:1px solid">
+                    동·리와 하부 조직
+                  </th>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EB%B2%95%EC%A0%95%EB%8F%99" title="법정동">법정동</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EB%A6%AC_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)" title="리 (행정 구역)">리</a> <span
+                      style="font-size:85%">(<a
+                        href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%A6%AC_%EB%AA%A9%EB%A1%9D"
+                        title="대한민국의 리 목록">목록</a>)</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%ED%86%B5_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)" title="통 (행정 구역)">통</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EB%B0%98_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)" title="반 (행정 구역)">반</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th style="background:#ccf; border-bottom:1px solid; font-size:100%">*: <a
+                      href="/wiki/%EA%B4%91%EC%97%AD%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%8B%A8%EC%B2%B4"
+                      title="광역지방자치단체">광역자치단체</a> **: <a
+                      href="/wiki/%EA%B8%B0%EC%B4%88%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%8B%A8%EC%B2%B4"
+                      title="기초지방자치단체">기초자치단체</a>
+                    <p><span class="noprint plainlinks plainlinksneverexpand"
+                        style="white-space:nowrap; font-weight:normal; font-size:smaller; ;"><a
+                          href="/wiki/%ED%8B%80:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%ED%96%89%EC%A0%95%EA%B5%AC%EC%97%AD_%EB%8B%A8%EC%9C%84"
+                          title="틀:대한민국 행정구역 단위"><span title="이 틀을 보기" style=";">v</span></a>&nbsp;<span
+                          style="font-size:smaller;">•</span>&nbsp;<a
+                          href="/w/index.php?title=%ED%8B%80%ED%86%A0%EB%A1%A0:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%ED%96%89%EC%A0%95%EA%B5%AC%EC%97%AD_%EB%8B%A8%EC%9C%84&amp;action=edit&amp;redlink=1"
+                          class="new" title="틀토론:대한민국 행정구역 단위 (없는 문서)"><span title="이 틀에 대한 토론"
+                            style=";">d</span></a>&nbsp;<span style="font-size:smaller;">•</span>&nbsp;<a
+                          class="external text"
+                          href="https://ko.wikipedia.org/w/index.php?title=%ED%8B%80:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%ED%96%89%EC%A0%95%EA%B5%AC%EC%97%AD_%EB%8B%A8%EC%9C%84&amp;action=edit"><span
+                            title="이 틀을 편집할 수 있습니다. 단, 저장하기 전에 미리 보기로 결과를 확인하여 주십시오." style=";">e</span></a>&nbsp;<span
+                          style="font-size:smaller;">•</span>&nbsp;<a class="external text"
+                          href="https://ko.wikipedia.org/w/index.php?title=%ED%8B%80:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%ED%96%89%EC%A0%95%EA%B5%AC%EC%97%AD_%EB%8B%A8%EC%9C%84&amp;action=history"><span
+                            title="이 틀의 역사를 볼 수 있습니다." style=";">h</span></a></span>
+                    </p>
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+            <p><b>특례시</b>(特例市)는 <a href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD" title="대한민국">대한민국</a>의 <a
+                href="/wiki/%EA%B4%91%EC%97%AD%EC%9E%90%EC%B9%98%EB%8B%A8%EC%B2%B4" class="mw-redirect"
+                title="광역자치단체">광역자치단체</a>인 <a href="/wiki/%EB%8F%84_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)"
+                title="도 (행정 구역)">도</a> 산하의 <a href="/wiki/%EA%B8%B0%EC%B4%88%EC%9E%90%EC%B9%98%EB%8B%A8%EC%B2%B4"
+                class="mw-redirect" title="기초자치단체">기초자치단체</a> 중 <a
+                href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%B2%95"
+                title="대한민국 지방자치법">대한민국 지방자치법</a> 제198조<sup id="cite_ref-1" class="reference"><a
+                  href="#cite_note-1">[1]</a></sup>에 의거 2022년 1월 13일부터 지정되는 지방자치단체이다.<sup id="cite_ref-2"
+                class="reference"><a href="#cite_note-2">[2]</a></sup>
+            </p>
+            <p>2020년 개정된 <a
+                href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%B2%95"
+                title="대한민국 지방자치법">대한민국 지방자치법</a>에서는 이를 <b>인구 100만 이상 대도시</b>라고 규정하고 있다. 기존에도 인구 100만 명 이상인 <a
+                href="/wiki/%EA%B8%B0%EC%B4%88%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%8B%A8%EC%B2%B4"
+                title="기초지방자치단체">기초지방자치단체</a>는 지방분권법 제41조 및 제42조에 따라 추가로 특례를 부여받을 수 있다.
+            </p>
+            <p>특례시는 행정적 명칭이며, 지방자치단체 종류가 추가되는 것이 아니라 공부·주소·안내판 등에서 '특례시'라는 명칭이 드러나지는 않는다.<sup id="cite_ref-3"
+                class="reference"><a href="#cite_note-3">[3]</a></sup>
+            </p>
+            <meta property="mw:PageProp/toc">
+            <h2><span id=".EA.B0.9C.EC.9A.94"></span><span class="mw-headline" id="개요">개요</span><span
+                class="mw-editsection"><span class="mw-editsection-bracket">[</span><a
+                  href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=edit&amp;section=1"
+                  title="부분 편집: 개요">편집</a><span class="mw-editsection-bracket">]</span></span></h2>
+            <p><a href="/wiki/2003%EB%85%84" title="2003년">2003년</a> 당시 인구 50만 명 이상의 11개 자치단체는 지방자치법 개정을 추진하면서 '인구 50만 명
+              이상 대도시의 행정 및 재정 운영, 국가의 지도감독 등과 관련해 관계 법률에 따라 특례 조항을 둘 수 있다'는 규정의 신설을 주장하고, <a href="/wiki/2003%EB%85%84"
+                title="2003년">2003년</a> <a href="/wiki/12%EC%9B%94_23%EC%9D%BC" title="12월 23일">12월 23일</a> 국회에서 해당 법안이
+              통과되었다.
+            </p>
+            <p>이후 "지방행정체제 개편에 관한 특별법"과 현재의 "지방자치분권 및 지방행정체제개편에 관한 특별법"이 제정되면서 100만 이상 대도시의 특례를 규율하였다.
+            </p>
+            <p>12월 9일 국회에서 <a
+                href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%B2%95"
+                title="대한민국 지방자치법">지방자치법</a> 전부개정안이 통과되어 100만 이상 대도시를 특례시로 하기로 하였다.
+            </p>
+            <p>특례 규정이 적용되는 <a href="/wiki/%EC%8B%9C_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)" title="시 (행정 구역)">시</a>는 <a
+                href="/wiki/%ED%96%89%EC%A0%95%EA%B5%AC" class="mw-redirect" title="행정구">행정구</a>를 설치할 수 있고, 위임사무의 경우 도가
+              아닌 담당 중앙부처의 감독을 받으며, 행정구조 면에서는 광역자치단체에서 행정이 분리되지 않으면서 조직·인사·도시계획 등의 분야에서 도지사의 권한 일부가 시장에게 위임된다는 점에서 광역시와
+              일반시의 중간적 성격을 갖는다.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup>
+            </p>
+            <p>이와 함께 인구 100만 명 이상인 도시의 경우 광역자치단체처럼 부시장을 2인으로 둘 수 있고,<sup id="cite_ref-5" class="reference"><a
+                  href="#cite_note-5">[5]</a></sup> 지역개발채권의 발행권한 등 일부 권한이 도지사로부터 시장에게 이관되며,<sup id="cite_ref-6"
+                class="reference"><a href="#cite_note-6">[6]</a></sup> 지역자원세가 도세에서 시세로 이양된다.
+            </p>
+            <h2><span id=".EB.B2.95.EC.A0.81_.EA.B7.BC.EA.B1.B0"></span><span class="mw-headline" id="법적_근거">법적
+                근거</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a
+                  href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=edit&amp;section=2"
+                  title="부분 편집: 법적 근거">편집</a><span class="mw-editsection-bracket">]</span></span></h2>
+            <ul>
+              <li>지방자치법 제3조제3항</li>
+              <li>지방자치법 제14조(지방자치단체의 종류별 사무배분기준)</li>
+              <li>지방자치법 제198조(대도시에 대한 특례인정)</li>
+              <li>지방자치법 시행령 제10조(인구 50만 이상 시의 사무의 특례)</li>
+              <li>지방자치법 시행령 제118조(대도시 인정 기준)</li>
+              <li>지방분권 및 지방행정체제개편에 관한 특별법 제41조(인구 100만 이상 대도시의 사무특례)</li>
+              <li>지방분권 및 지방행정체제개편에 관한 특별법 제42조(인구 100만 이상 대도시의 보조기관 등)</li>
+            </ul>
+            <h2><span id=".ED.98.84.ED.99.A9"></span><span class="mw-headline" id="현황">현황</span><span
+                class="mw-editsection"><span class="mw-editsection-bracket">[</span><a
+                  href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=edit&amp;section=3"
+                  title="부분 편집: 현황">편집</a><span class="mw-editsection-bracket">]</span></span></h2>
+            <p>인구 100만 명 이상의 <a href="/wiki/%EC%8B%9C_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)" title="시 (행정 구역)">시</a>는
+              <a href="/wiki/%EB%8C%80%EB%8F%84%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)" title="대도시 (대한민국)">50만명
+                이상 특례</a>외에 추가적 특례를 적용받을 수 있다.
+            </p>
+            <p>인구 50만 명 이상의 시는 <a href="/wiki/%EC%8B%9C_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)"
+                title="시 (행정 구역)">시</a>가 원하는 경우 정부의 승인을 받아 <a href="/wiki/%ED%96%89%EC%A0%95%EA%B5%AC"
+                class="mw-redirect" title="행정구">행정구</a>를 설치할 수 있다.(지방자치법 제3조제3항) <a
+                href="/wiki/%ED%96%89%EC%A0%95%EA%B5%AC" class="mw-redirect" title="행정구">행정구</a>는 <a
+                href="/wiki/%ED%8A%B9%EB%B3%84%EC%8B%9C" title="특별시">특별시</a>·<a href="/wiki/%EA%B4%91%EC%97%AD%EC%8B%9C"
+                title="광역시">광역시</a>에 설치된 기초단체인 <a href="/wiki/%EC%9E%90%EC%B9%98%EA%B5%AC" class="mw-disambig"
+                title="자치구">자치구</a>와는 법적 지위가 다르며(독립적인 법인격을 갖지 않음), 기초단체인 시의 하위 행정 구역일 뿐이다. 행정구의 구청장은 선거로 뽑히지 않고 시장이
+              임명하는데, 일반적으로 3~4급(주로 4급)에 해당하는 공무원이 맡게 된다. 현재 100만 이상 도시들은 모두 일반구가 있다.
+            </p>
+            <p>인구 100만 명 이상의 시는 기존 50만 특례에 더불어 추가적으로 더 광범위한 법적 특례(지방분권법 제41조)를 적용받을 수 있으며, 부시장을 2명 둘 수 있다.(지방분권법 제42조)
+              2022년 특례시가 공식화되기 전에는 이러한 특례를 적용받기 위한 별도의 기준은 없었다. 인구가 100만 명이 된 시점부터 바로 적용되었다. 다만 해당 시의회의 조례제·개정 등의 절차가
+              필요하였다. 2022년에 특례시 명칭이 공식화되면서 매년 말일 외국인을 포함한 등록 인구를 2년간 유지해야 특례시가 되었다.
+            </p>
+            <h3><span id=".ED.8A.B9.EB.A1.80.EC.8B.9C"></span><span class="mw-headline" id="특례시">특례시</span><span
+                class="mw-editsection"><span class="mw-editsection-bracket">[</span><a
+                  href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=edit&amp;section=4"
+                  title="부분 편집: 특례시">편집</a><span class="mw-editsection-bracket">]</span></span></h3>
+            <table class="wikitable sortable jquery-tablesorter" style="text-align:center; font-size:100%;">
+              <thead>
+                <tr>
+                  <th class="headerSort" tabindex="0" role="columnheader button" title="오름차순 정렬">도</th>
+                  <th class="headerSort" tabindex="0" role="columnheader button" title="오름차순 정렬">시</th>
+                  <th class="headerSort" tabindex="0" role="columnheader button" title="오름차순 정렬">일반구</th>
+                  <th class="headerSort" tabindex="0" role="columnheader button" title="오름차순 정렬">일반구 수</th>
+                  <th class="headerSort" tabindex="0" role="columnheader button" title="오름차순 정렬">
+                    인구<br><small>(2021.3.31.<sup id="cite_ref-7" class="reference"><a
+                          href="#cite_note-7">[7]</a></sup>)</small></th>
+                  <th class="headerSort" tabindex="0" role="columnheader button" title="오름차순 정렬">
+                    면적<br><small>(km<sup>2</sup>)</small></th>
+                  <th class="headerSort" tabindex="0" role="columnheader button" title="오름차순 정렬">비고
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="3"><a href="/wiki/%EA%B2%BD%EA%B8%B0%EB%8F%84" title="경기도">경기도</a></td>
+                  <td><a href="/wiki/%EA%B3%A0%EC%96%91%EC%8B%9C" title="고양시">고양시</a></td>
+                  <td><a href="/wiki/%EB%8D%95%EC%96%91%EA%B5%AC" title="덕양구">덕양구</a>, <a
+                      href="/wiki/%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC" title="일산동구">일산동구</a>, <a
+                      href="/wiki/%EC%9D%BC%EC%82%B0%EC%84%9C%EA%B5%AC" title="일산서구">일산서구</a></td>
+                  <td>3</td>
+                  <td>1,080,845</td>
+                  <td>267.31</td>
+                  <td>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EC%88%98%EC%9B%90%EC%8B%9C" title="수원시">수원시</a></td>
+                  <td><a href="/wiki/%EA%B6%8C%EC%84%A0%EA%B5%AC" title="권선구">권선구</a>, <a
+                      href="/wiki/%EC%98%81%ED%86%B5%EA%B5%AC" title="영통구">영통구</a>, <a
+                      href="/wiki/%EC%9E%A5%EC%95%88%EA%B5%AC" title="장안구">장안구</a>, <a
+                      href="/wiki/%ED%8C%94%EB%8B%AC%EA%B5%AC" title="팔달구">팔달구</a></td>
+                  <td>4</td>
+                  <td>1,185,984</td>
+                  <td>121.09</td>
+                  <td><small>경기도청 소재지</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EC%9A%A9%EC%9D%B8%EC%8B%9C" title="용인시">용인시</a></td>
+                  <td><a href="/wiki/%EA%B8%B0%ED%9D%A5%EA%B5%AC" title="기흥구">기흥구</a>, <a
+                      href="/wiki/%EC%88%98%EC%A7%80%EA%B5%AC" title="수지구">수지구</a>, <a
+                      href="/wiki/%EC%B2%98%EC%9D%B8%EA%B5%AC" title="처인구">처인구</a></td>
+                  <td>3</td>
+                  <td>1,075,421</td>
+                  <td>591.32</td>
+                  <td>
+                  </td>
+                </tr>
+                <tr>
+                  <td><a href="/wiki/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84" title="경상남도">경상남도</a></td>
+                  <td><a href="/wiki/%EC%B0%BD%EC%9B%90%EC%8B%9C" title="창원시">창원시</a></td>
+                  <td><a href="/wiki/%EB%A7%88%EC%82%B0%ED%9A%8C%EC%9B%90%EA%B5%AC" title="마산회원구">마산회원구</a>, <a
+                      href="/wiki/%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC" title="마산합포구">마산합포구</a>, <a
+                      href="/wiki/%EC%9D%98%EC%B0%BD%EA%B5%AC" title="의창구">의창구</a>, <a
+                      href="/wiki/%EC%84%B1%EC%82%B0%EA%B5%AC" title="성산구">성산구</a>, <a
+                      href="/wiki/%EC%A7%84%ED%95%B4%EA%B5%AC" title="진해구">진해구</a></td>
+                  <td>5</td>
+                  <td>1,034,977</td>
+                  <td>736.34</td>
+                  <td><small>경상남도청 소재지</small>
+                  </td>
+                </tr>
+              </tbody>
+              <tfoot></tfoot>
+            </table>
+            <h2><span id=".EA.B4.91.EC.97.AD.EC.8B.9C_.EC.8A.B9.EA.B2.A9_.EB.85.BC.EC.9D.98"></span><span
+                class="mw-headline" id="광역시_승격_논의">광역시 승격 논의</span><span class="mw-editsection"><span
+                  class="mw-editsection-bracket">[</span><a
+                  href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=edit&amp;section=5"
+                  title="부분 편집: 광역시 승격 논의">편집</a><span class="mw-editsection-bracket">]</span></span></h2>
+            <style data-mw-deduplicate="TemplateStyles:r33574243">
+              .mw-parser-output .hatnote {}
+
+              .mw-parser-output div.hatnote {
+                padding-left: 1.6em;
+                margin-bottom: 0.5em
+              }
+
+              .mw-parser-output .hatnote i {
+                font-style: normal
+              }
+
+              .mw-parser-output .hatnote+link+.hatnote {
+                margin-top: -0.5em
+              }
+            </style>
+            <div role="note" class="hatnote navigation-not-searchable"><img alt="<nowiki />"
+                src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Crystal_Clear_app_xmag.svg/16px-Crystal_Clear_app_xmag.svg.png"
+                decoding="async" title="<nowiki />" width="16" height="16"
+                srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Crystal_Clear_app_xmag.svg/24px-Crystal_Clear_app_xmag.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Crystal_Clear_app_xmag.svg/32px-Crystal_Clear_app_xmag.svg.png 2x"
+                data-file-width="128" data-file-height="128">&nbsp;<a
+                href="/wiki/%EA%B4%91%EC%97%AD%EC%8B%9C#비대_자치시의_광역시_승격_문제_및_논란" title="광역시">광역시 §&nbsp;비대 자치시의 광역시 승격 문제
+                및 논란</a> 문서를 참고하십시오.</div>
+            <p><a href="/wiki/%EA%B3%A0%EC%96%91%EC%8B%9C" title="고양시">고양시</a>, <a
+                href="/wiki/%EC%88%98%EC%9B%90%EC%8B%9C" title="수원시">수원시</a>, <a
+                href="/wiki/%EC%B0%BD%EC%9B%90%EC%8B%9C" title="창원시">창원시</a>, <a
+                href="/wiki/%EC%9A%A9%EC%9D%B8%EC%8B%9C" title="용인시">용인시</a>는 인구가 100만 명이 넘었고 일부 대도시(<a
+                href="/wiki/%EC%84%B1%EB%82%A8%EC%8B%9C" title="성남시">성남시</a>, <a
+                href="/wiki/%EC%95%88%EC%96%91%EC%8B%9C" title="안양시">안양시</a>, <a
+                href="/wiki/%EC%95%88%EC%82%B0%EC%8B%9C" title="안산시">안산시</a> 등)는 인근 지자체와의 통합을 통한 <a
+                href="/wiki/%EA%B4%91%EC%97%AD%EC%8B%9C" title="광역시">광역시</a> 승격 논의가 있지만, 중앙정부 관료들의 부정적 태도, <a
+                href="/wiki/%EB%8F%84_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)" title="도 (행정 구역)">도</a>(道)의 반대, 시민들의 엇갈린
+              여론(도청소재지인 <a href="/wiki/%EC%88%98%EC%9B%90%EC%8B%9C" title="수원시">수원시</a>와 <a
+                href="/wiki/%EC%B0%BD%EC%9B%90%EC%8B%9C" title="창원시">창원시</a>) 등 정치적인 문제 때문에 가능성은 낮은 상태이다.
+            </p>
+            <p><a href="/wiki/%EA%B3%A0%EC%96%91%EC%8B%9C" title="고양시">고양시</a>, <a
+                href="/wiki/%EC%88%98%EC%9B%90%EC%8B%9C" title="수원시">수원시</a>, <a
+                href="/wiki/%EC%9A%A9%EC%9D%B8%EC%8B%9C" title="용인시">용인시</a> 등 인구가 100만 명이 넘거나 100만 명에 육박하는 <a
+                href="/wiki/%EA%B2%BD%EA%B8%B0%EB%8F%84" title="경기도">경기도</a>의 시들은 행정구조 면에서는 <a
+                href="/wiki/%EA%B4%91%EC%97%AD%EC%A7%80%EC%9E%90%EC%B2%B4" class="mw-redirect" title="광역지자체">광역지자체</a>에
+              속하면서도 자치권의 측면에서는 대한민국의 <a href="/wiki/%EA%B4%91%EC%97%AD%EC%8B%9C" title="광역시">광역시</a>와 같이 광범위한 자치권을 행사하는
+              <a href="/wiki/%EC%9D%BC%EB%B3%B8" title="일본">일본</a>의 <a
+                href="/wiki/%EC%A0%95%EB%A0%B9%EC%A7%80%EC%A0%95%EB%8F%84%EC%8B%9C" title="정령지정도시">정령지정도시</a>와 유사한 형태의
+              특별기초자치단체를 도입할 것을 주장하고 있다.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup>
+            </p>
+            <p><a href="/wiki/%EA%B3%A0%EC%96%91%EC%8B%9C" title="고양시">고양시</a>, <a
+                href="/wiki/%EC%88%98%EC%9B%90%EC%8B%9C" title="수원시">수원시</a>, <a
+                href="/wiki/%EC%9A%A9%EC%9D%B8%EC%8B%9C" title="용인시">용인시</a>, <a
+                href="/wiki/%EC%B0%BD%EC%9B%90%EC%8B%9C" title="창원시">창원시</a> 이렇게 4개의 시들이 국회에서 법안이 통과되어 <a
+                href="/wiki/2022%EB%85%84" title="2022년">2022년</a> <a href="/wiki/1%EC%9B%94_13%EC%9D%BC"
+                title="1월 13일">1월 13일</a>에 특례시로 승격되었다.
+            </p>
+            <h2><span
+                id=".EB.8C.80.ED.95.9C.EB.AF.BC.EA.B5.AD.ED.8A.B9.EB.A1.80.EC.8B.9C.EC.8B.9C.EC.9E.A5.ED.98.91.EC.9D.98.ED.9A.8C"></span><span
+                class="mw-headline" id="대한민국특례시시장협의회">대한민국특례시시장협의회</span><span class="mw-editsection"><span
+                  class="mw-editsection-bracket">[</span><a
+                  href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=edit&amp;section=6"
+                  title="부분 편집: 대한민국특례시시장협의회">편집</a><span class="mw-editsection-bracket">]</span></span></h2>
+            <p><b>대한민국특례시시장협의회</b>는 인구 100만 명 이상 대도시인 기초자치단체의 기초단체장이 모여 중앙정부 정책제안 및 시의 상호협력 사항 논의를 위해 구성된 행정협의회이다. <a
+                href="/wiki/%EA%B3%A0%EC%96%91%EC%8B%9C" title="고양시">고양시</a>, <a
+                href="/wiki/%EC%88%98%EC%9B%90%EC%8B%9C" title="수원시">수원시</a>, <a
+                href="/wiki/%EC%9A%A9%EC%9D%B8%EC%8B%9C" title="용인시">용인시</a>, <a
+                href="/wiki/%EC%B0%BD%EC%9B%90%EC%8B%9C" title="창원시">창원시</a>의 시장이 참여 중이다.
+            </p>
+            <h2><span id=".EA.B0.99.EC.9D.B4_.EB.B3.B4.EA.B8.B0"></span><span class="mw-headline" id="같이_보기">같이
+                보기</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a
+                  href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=edit&amp;section=7"
+                  title="부분 편집: 같이 보기">편집</a><span class="mw-editsection-bracket">]</span></span></h2>
+            <div>
+
+
+              <table class="multicol" role="presentation"
+                style="border-collapse: collapse; padding: 0; border: 0; background:transparent; width:100%;">
+                <tbody>
+                  <tr>
+                    <td style="width:50%; text-align:left; vertical-align:top;">
+                      <ul>
+                        <li><a href="/wiki/%ED%8A%B9%EB%B3%84%EC%8B%9C" title="특별시">특별시</a></li>
+                        <li><a href="/wiki/%EA%B4%91%EC%97%AD%EC%8B%9C" title="광역시">광역시</a></li>
+                        <li><a href="/wiki/%EB%8C%80%EB%8F%84%EC%8B%9C" title="대도시">대도시</a></li>
+                        <li><a href="/wiki/%EB%8C%80%EB%8F%84%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)"
+                            title="대도시 (대한민국)">대도시 (대한민국)</a></li>
+                        <li><a href="/wiki/%EC%8B%9C_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)" title="시 (행정 구역)">자치시</a>
+                        </li>
+                        <li><a href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B5%AC#자치구"
+                            title="대한민국의 구">자치구</a></li>
+                      </ul>
+                      <p>
+                      </p>
+                    </td>
+                    <td style="width:50%; text-align:left; vertical-align:top;">
+                      <ul>
+                        <li><a href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B5%AC#자치구가_아닌_구"
+                            title="대한민국의 구">행정구</a></li>
+                        <li><a
+                            href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EC%9D%B8%EA%B5%AC%EC%88%9C_%EB%8F%84%EC%8B%9C_%EB%AA%A9%EB%A1%9D"
+                            title="대한민국의 인구순 도시 목록">대한민국의 인구순 도시 목록</a></li>
+                        <li><a href="/wiki/%EC%A0%95%EB%A0%B9%EC%A7%80%EC%A0%95%EB%8F%84%EC%8B%9C"
+                            title="정령지정도시">정령시</a>(<span class="flagicon"><a
+                              href="https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg" class="image"><img
+                                alt="일본의 기"
+                                src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/22px-Flag_of_Japan.svg.png"
+                                decoding="async" width="22" height="15" class="thumbborder"
+                                srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/33px-Flag_of_Japan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/44px-Flag_of_Japan.svg.png 2x"
+                                data-file-width="900" data-file-height="600"></a></span> <a
+                            href="/wiki/%EC%9D%BC%EB%B3%B8" title="일본">일본</a>)</li>
+                        <li><a href="/wiki/%EC%A4%91%ED%95%B5%EC%8B%9C" title="중핵시">중핵시</a>(<span class="flagicon"><a
+                              href="https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg" class="image"><img
+                                alt="일본의 기"
+                                src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/22px-Flag_of_Japan.svg.png"
+                                decoding="async" width="22" height="15" class="thumbborder"
+                                srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/33px-Flag_of_Japan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/44px-Flag_of_Japan.svg.png 2x"
+                                data-file-width="900" data-file-height="600"></a></span> <a
+                            href="/wiki/%EC%9D%BC%EB%B3%B8" title="일본">일본</a>)</li>
+                        <li><a href="/wiki/%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EC%9D%BC%EB%B3%B8)"
+                            title="특례시 (일본)">특례시</a>(<span class="flagicon"><a
+                              href="https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg" class="image"><img
+                                alt="일본의 기"
+                                src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/22px-Flag_of_Japan.svg.png"
+                                decoding="async" width="22" height="15" class="thumbborder"
+                                srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/33px-Flag_of_Japan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/44px-Flag_of_Japan.svg.png 2x"
+                                data-file-width="900" data-file-height="600"></a></span> <a
+                            href="/wiki/%EC%9D%BC%EB%B3%B8" title="일본">일본</a>)</li>
+                      </ul>
+                      <p>
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h2><span id=".EA.B0.81.EC.A3.BC"></span><span class="mw-headline" id="각주">각주</span><span
+                class="mw-editsection"><span class="mw-editsection-bracket">[</span><a
+                  href="/w/index.php?title=%ED%8A%B9%EB%A1%80%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)&amp;action=edit&amp;section=8"
+                  title="부분 편집: 각주">편집</a><span class="mw-editsection-bracket">]</span></span></h2>
+            <div class="reflist columns references-column-width"
+              style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+              <ol class="references">
+                <li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1" aria-label="이동"
+                      title="이동">↑</a></span> <span class="reference-text"><a
+                      href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%A7%80%EB%B0%A9%EC%9E%90%EC%B9%98%EB%B2%95"
+                      title="대한민국 지방자치법">대한민국 지방자치법</a> 제198조(대도시에 대한 특례인정) 인구 100만 이상 대도시...‘특례시’라 한다”고 한다.</span>
+                </li>
+                <li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2" aria-label="이동"
+                      title="이동">↑</a></span> <span class="reference-text">국회를 통과한 후 2022년 1월 광역시가 아닌 특례시로 승격을
+                    발표한다.</span>
+                </li>
+                <li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3" aria-label="이동"
+                      title="이동">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free"
+                      href="https://www.korea.kr/news/actuallyView.do?newsId=148855276">https://www.korea.kr/news/actuallyView.do?newsId=148855276</a></span>
+                </li>
+                <li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4" aria-label="이동"
+                      title="이동">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text"
+                      href="https://terms.naver.com/entry.nhn?docId=21027">네이버 지식사전 - 특정시</a></span>
+                </li>
+                <li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5" aria-label="이동"
+                      title="이동">↑</a></span> <span class="reference-text">다만, 해당 부시장 중 1인은 지방직 공무원으로 도에서 내려 보내는 인원이며,
+                    나머지 1인은 해당 시에서 조례를 통해 지방 일반직, 지방 별정직, 지방 임기제 공무원 중 임명할 수 있다.</span>
+                </li>
+                <li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6" aria-label="이동"
+                      title="이동">↑</a></span> <span class="reference-text">다만, 이 중 일부 권한은 도지사와 협의를 하여야 한다.</span>
+                </li>
+                <li id="cite_note-7"><span class="mw-cite-backlink"><a href="#cite_ref-7" aria-label="이동"
+                      title="이동">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text"
+                      href="https://jumin.mois.go.kr/index.jsp">주민등록 인구통계</a> 행정안전부, 2021년 4월 2일 확인.</span>
+                </li>
+                <li id="cite_note-8"><span class="mw-cite-backlink"><a href="#cite_ref-8" aria-label="이동"
+                      title="이동">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text"
+                      href="http://www.fnnews.com/view?ra=Sent1201m_View&amp;corp=fnnews&amp;arcid=201303010100008420000057&amp;cDateYear=2013&amp;cDateMonth=03&amp;cDateDay=01">행안부,
+                      인구 100만 대도시 전략 마련 나서나</a>《파이낸셜뉴스》, 2013년 3월 1일.</span>
+                </li>
+              </ol>
+            </div>
+            <div role="navigation" class="navbox" aria-labelledby="대한민국의_특례시" style="padding:3px">
+              <table class="nowraplinks mw-collapsible autocollapse navbox-inner mw-made-collapsible mw-collapsed"
+                style="border-spacing:0;background:transparent;color:inherit">
+                <tbody>
+                  <tr>
+                    <th scope="col" class="navbox-title" colspan="2"><span
+                        class="mw-collapsible-toggle mw-collapsible-toggle-default mw-collapsible-toggle-collapsed"
+                        role="button" tabindex="0" aria-expanded="false"><a class="mw-collapsible-text">펼치기</a></span>
+                      <div class="plainlinks hlist navbar mini">
+                        <ul>
+                          <li class="nv-view"><a
+                              href="/wiki/%ED%8B%80:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%ED%8A%B9%EB%A1%80%EC%8B%9C"
+                              title="틀:대한민국의 특례시"><abbr title="이 틀을 보기"
+                                style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a>
+                          </li>
+                          <li class="nv-talk"><a
+                              href="/w/index.php?title=%ED%8B%80%ED%86%A0%EB%A1%A0:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%ED%8A%B9%EB%A1%80%EC%8B%9C&amp;action=edit&amp;redlink=1"
+                              class="new" title="틀토론:대한민국의 특례시 (없는 문서)"><abbr title="이 틀에 대한 토론"
+                                style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a>
+                          </li>
+                          <li class="nv-edit"><a class="external text"
+                              href="https://ko.wikipedia.org/w/index.php?title=%ED%8B%80:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%ED%8A%B9%EB%A1%80%EC%8B%9C&amp;action=edit"><abbr
+                                title="이 틀을 편집하기"
+                                style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div id="대한민국의_특례시" style="font-size:114%;margin:0 4em"><a
+                          href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD" title="대한민국">대한민국</a>의 <a
+                          class="mw-selflink selflink">특례시</a></div>
+                    </th>
+                  </tr>
+                  <tr style="display: none;">
+                    <th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/%EA%B2%BD%EA%B8%B0%EB%8F%84"
+                        title="경기도">경기도</a></th>
+                    <td class="navbox-list navbox-odd hlist"
+                      style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                      <div style="padding:0em 0.25em">
+                        <ul>
+                          <li><a href="/wiki/%EC%88%98%EC%9B%90%EC%8B%9C" title="수원시">수원시</a></li>
+                          <li><a href="/wiki/%EA%B3%A0%EC%96%91%EC%8B%9C" title="고양시">고양시</a></li>
+                          <li><a href="/wiki/%EC%9A%A9%EC%9D%B8%EC%8B%9C" title="용인시">용인시</a></li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr style="display: none;">
+                    <th scope="row" class="navbox-group" style="width:1%"><a
+                        href="/wiki/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84" title="경상남도">경상남도</a></th>
+                    <td class="navbox-list navbox-even hlist"
+                      style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                      <div style="padding:0em 0.25em">
+                        <ul>
+                          <li><a href="/wiki/%EC%B0%BD%EC%9B%90%EC%8B%9C" title="창원시">창원시</a></li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div role="navigation" class="navbox" aria-labelledby="대한민국의_인구_50만_이상_대도시" style="padding:3px">
+              <table class="nowraplinks mw-collapsible autocollapse navbox-inner mw-made-collapsible mw-collapsed"
+                style="border-spacing:0;background:transparent;color:inherit">
+                <tbody>
+                  <tr>
+                    <th scope="col" class="navbox-title" colspan="2"><span
+                        class="mw-collapsible-toggle mw-collapsible-toggle-default mw-collapsible-toggle-collapsed"
+                        role="button" tabindex="0" aria-expanded="false"><a class="mw-collapsible-text">펼치기</a></span>
+                      <div class="plainlinks hlist navbar mini">
+                        <ul>
+                          <li class="nv-view"><a
+                              href="/wiki/%ED%8B%80:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%8C%80%EB%8F%84%EC%8B%9C"
+                              title="틀:대한민국의 대도시"><abbr title="이 틀을 보기"
+                                style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a>
+                          </li>
+                          <li class="nv-talk"><a
+                              href="/w/index.php?title=%ED%8B%80%ED%86%A0%EB%A1%A0:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%8C%80%EB%8F%84%EC%8B%9C&amp;action=edit&amp;redlink=1"
+                              class="new" title="틀토론:대한민국의 대도시 (없는 문서)"><abbr title="이 틀에 대한 토론"
+                                style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a>
+                          </li>
+                          <li class="nv-edit"><a class="external text"
+                              href="https://ko.wikipedia.org/w/index.php?title=%ED%8B%80:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EB%8C%80%EB%8F%84%EC%8B%9C&amp;action=edit"><abbr
+                                title="이 틀을 편집하기"
+                                style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div id="대한민국의_인구_50만_이상_대도시" style="font-size:114%;margin:0 4em"><a
+                          href="/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD" title="대한민국">대한민국</a>의 인구 50만 이상 <a
+                          href="/wiki/%EB%8C%80%EB%8F%84%EC%8B%9C_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)"
+                          title="대도시 (대한민국)">대도시</a></div>
+                    </th>
+                  </tr>
+                  <tr style="display: none;">
+                    <th scope="row" class="navbox-group" style="width:1%"><a
+                        href="/wiki/%EA%B4%91%EC%97%AD%EC%9E%90%EC%B9%98%EB%8B%A8%EC%B2%B4" class="mw-redirect"
+                        title="광역자치단체">광역자치단체</a></th>
+                    <td class="navbox-list navbox-odd hlist"
+                      style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                      <div style="padding:0em 0.25em"></div>
+                      <table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+                        <tbody>
+                          <tr>
+                            <th scope="row" class="navbox-group"
+                              style="width:1%;width:7em; text-align:center; background:#aaffff;"><a
+                                href="/wiki/%ED%8A%B9%EB%B3%84%EC%8B%9C" title="특별시">특별시</a></th>
+                            <td class="navbox-list navbox-odd"
+                              style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                              <div style="padding:0em 0.25em">
+                                <ul>
+                                  <li><a href="/wiki/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C"
+                                      title="서울특별시">서울특별시</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="navbox-group"
+                              style="width:1%;width:7em; text-align:center; background:#aaffff;"><a
+                                href="/wiki/%EA%B4%91%EC%97%AD%EC%8B%9C" title="광역시">광역시</a></th>
+                            <td class="navbox-list navbox-even"
+                              style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                              <div style="padding:0em 0.25em">
+                                <ul>
+                                  <li><a href="/wiki/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C"
+                                      title="부산광역시">부산광역시</a></li>
+                                  <li><a href="/wiki/%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C"
+                                      title="대구광역시">대구광역시</a></li>
+                                  <li><a href="/wiki/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C"
+                                      title="인천광역시">인천광역시</a></li>
+                                  <li><a href="/wiki/%EA%B4%91%EC%A3%BC%EA%B4%91%EC%97%AD%EC%8B%9C"
+                                      title="광주광역시">광주광역시</a></li>
+                                  <li><a href="/wiki/%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C"
+                                      title="대전광역시">대전광역시</a></li>
+                                  <li><a href="/wiki/%EC%9A%B8%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C"
+                                      title="울산광역시">울산광역시</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div></div>
+                    </td>
+                  </tr>
+                  <tr style="display: none;">
+                    <th scope="row" class="navbox-group" style="width:1%"><a
+                        href="/wiki/%EA%B8%B0%EC%B4%88%EC%9E%90%EC%B9%98%EB%8B%A8%EC%B2%B4" class="mw-redirect"
+                        title="기초자치단체">기초자치단체</a></th>
+                    <td class="navbox-list navbox-odd hlist"
+                      style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                      <div style="padding:0em 0.25em"></div>
+                      <table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+                        <tbody>
+                          <tr>
+                            <th scope="row" class="navbox-group"
+                              style="width:1%;width:7em; text-align:center; background:#aaccff;"><a
+                                href="/wiki/%EA%B2%BD%EA%B8%B0%EB%8F%84" title="경기도">경기도</a></th>
+                            <td class="navbox-list navbox-odd"
+                              style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                              <div style="padding:0em 0.25em">
+                                <ul>
+                                  <li><b><a href="/wiki/%EC%88%98%EC%9B%90%EC%8B%9C" title="수원시">수원시</a></b></li>
+                                  <li><b><a href="/wiki/%EA%B3%A0%EC%96%91%EC%8B%9C" title="고양시">고양시</a></b></li>
+                                  <li><b><a href="/wiki/%EC%9A%A9%EC%9D%B8%EC%8B%9C" title="용인시">용인시</a></b></li>
+                                  <li><a href="/wiki/%EC%84%B1%EB%82%A8%EC%8B%9C" title="성남시">성남시</a></li>
+                                  <li><a href="/wiki/%ED%99%94%EC%84%B1%EC%8B%9C" title="화성시">화성시</a>*</li>
+                                  <li><a href="/wiki/%EB%B6%80%EC%B2%9C%EC%8B%9C" title="부천시">부천시</a>*</li>
+                                  <li><a href="/wiki/%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9C" title="남양주시">남양주시</a>*</li>
+                                  <li><a href="/wiki/%EC%95%88%EC%82%B0%EC%8B%9C" title="안산시">안산시</a></li>
+                                  <li><a href="/wiki/%EC%95%88%EC%96%91%EC%8B%9C" title="안양시">안양시</a></li>
+                                  <li><a href="/wiki/%ED%8F%89%ED%83%9D%EC%8B%9C" title="평택시">평택시</a>*</li>
+                                  <li><a href="/wiki/%EC%8B%9C%ED%9D%A5%EC%8B%9C" title="시흥시">시흥시</a>*</li>
+                                  <li><a href="/wiki/%EA%B9%80%ED%8F%AC%EC%8B%9C" title="김포시">김포시</a>*<sup>1</sup></li>
+                                  <li><a href="/wiki/%ED%8C%8C%EC%A3%BC%EC%8B%9C" title="파주시">파주시</a>*<sup>1</sup></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="navbox-group"
+                              style="width:1%;width:7em; text-align:center; background:#aaccff;"><a
+                                href="/wiki/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84" title="충청북도">충청북도</a></th>
+                            <td class="navbox-list navbox-even"
+                              style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                              <div style="padding:0em 0.25em">
+                                <ul>
+                                  <li><a href="/wiki/%EC%B2%AD%EC%A3%BC%EC%8B%9C" title="청주시">청주시</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="navbox-group"
+                              style="width:1%;width:7em; text-align:center; background:#aaccff;"><a
+                                href="/wiki/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84" title="충청남도">충청남도</a></th>
+                            <td class="navbox-list navbox-odd"
+                              style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                              <div style="padding:0em 0.25em">
+                                <ul>
+                                  <li><a href="/wiki/%EC%B2%9C%EC%95%88%EC%8B%9C" title="천안시">천안시</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="navbox-group"
+                              style="width:1%;width:7em; text-align:center; background:#aaccff;"><a
+                                href="/wiki/%EC%A0%84%EB%9D%BC%EB%B6%81%EB%8F%84" title="전라북도">전라북도</a></th>
+                            <td class="navbox-list navbox-even"
+                              style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                              <div style="padding:0em 0.25em">
+                                <ul>
+                                  <li><a href="/wiki/%EC%A0%84%EC%A3%BC%EC%8B%9C" title="전주시">전주시</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="navbox-group"
+                              style="width:1%;width:7em; text-align:center; background:#aaccff;"><a
+                                href="/wiki/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84" title="경상북도">경상북도</a></th>
+                            <td class="navbox-list navbox-odd"
+                              style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                              <div style="padding:0em 0.25em">
+                                <ul>
+                                  <li><a href="/wiki/%ED%8F%AC%ED%95%AD%EC%8B%9C" title="포항시">포항시</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="navbox-group"
+                              style="width:1%;width:7em; text-align:center; background:#aaccff;"><a
+                                href="/wiki/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84" title="경상남도">경상남도</a></th>
+                            <td class="navbox-list navbox-even"
+                              style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                              <div style="padding:0em 0.25em">
+                                <ul>
+                                  <li><b><a href="/wiki/%EC%B0%BD%EC%9B%90%EC%8B%9C" title="창원시">창원시</a></b></li>
+                                  <li><a href="/wiki/%EA%B9%80%ED%95%B4%EC%8B%9C" title="김해시">김해시</a>*</li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div></div>
+                    </td>
+                  </tr>
+                  <tr style="display: none;">
+                    <th scope="row" class="navbox-group" style="width:1%">비자치시</th>
+                    <td class="navbox-list navbox-odd hlist"
+                      style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                      <div style="padding:0em 0.25em"></div>
+                      <table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+                        <tbody>
+                          <tr>
+                            <th id="제주특별자치도" scope="row" class="navbox-group"
+                              style="width:1%;width:7em; text-align:center; background:#aaffcc;"><a
+                                href="/wiki/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84"
+                                title="제주특별자치도">제주특별자치도</a></th>
+                            <td class="navbox-list navbox-odd"
+                              style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+                              <div style="padding:0em 0.25em">
+                                <ul>
+                                  <li><a href="/wiki/%EC%A0%9C%EC%A3%BC%EC%8B%9C" title="제주시">제주시</a>*<sup>2</sup></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div></div>
+                    </td>
+                  </tr>
+                  <tr style="display: none;">
+                    <td class="navbox-abovebelow" colspan="2">
+                      <div><b>굵은 글씨</b>&nbsp;: 100만 이상 <a class="mw-selflink selflink">특례시</a><br>*&nbsp;: 일반구가 없는
+                        대도시<br>
+                        <p>1. 인구가 50만을 돌파한지 일정 기한이 지나지 않아 특례 미부여<br>
+                        </p>
+                        2. <a href="/wiki/%ED%96%89%EC%A0%95%EC%8B%9C" title="행정시">행정시</a>로 별도의 특례 조항이 없음
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div><noscript><img src="//ko.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title=""
+              width="1" height="1" style="border: none; position: absolute;" /></noscript>
+          <div class="printfooter" data-nosnippet="">원본 주소 "<a dir="ltr"
+              href="https://ko.wikipedia.org/w/index.php?title=특례시_(대한민국)&amp;oldid=33055630">https://ko.wikipedia.org/w/index.php?title=특례시_(대한민국)&amp;oldid=33055630</a>"
+          </div>
+        </div>
+        <div id="catlinks" class="catlinks" data-mw="interface">
+          <div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/%ED%8A%B9%EC%88%98:%EB%B6%84%EB%A5%98"
+              title="특수:분류">분류</a>: <ul>
+              <li><a
+                  href="/wiki/%EB%B6%84%EB%A5%98:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD"
+                  title="분류:대한민국의 행정 구역">대한민국의 행정 구역</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
   </main>
-<footer>
-  <p>copyright by HEJ.</p>
-  <address></address>
-</footer>
+  <footer class="container">
+    <p>copyright by HEJ.</p>
+    <address></address>
+  </footer>
 </body>
+
 </html>
